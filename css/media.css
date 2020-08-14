@@ -1,0 +1,378 @@
+@media screen and (max-width: 1199px) {
+  .btnToggle {
+    animation-name: btnToggle;
+    transition: all 1s ease;
+  }
+
+  @keyframes btnToggle {
+    from {
+      margin-left: 0;
+    }
+    to {
+      margin-left: 28%;
+    }
+  }
+  .plan-mode {
+    padding: 30px;
+  }
+  .plan-mode__list {
+    margin-bottom: 40px;
+  }
+  .plan-mode__btn_card-two {
+    margin-top: -50px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header__text {
+    margin: 35px 0 62px;
+  }
+  .about__title {
+    margin-top: 0;
+  }
+  .about__text_one,
+  .popular__text_one {
+    margin: 35px 0 15px;
+  }
+  .about__text_two {
+    width: 100%;
+    margin-bottom: 55px;
+  }
+  .about-iphone_img {
+    top: 100px;
+    right: 0;
+    width: 90%;
+  }
+  .popular__title {
+    width: 100%;
+  }
+  .popular__partners {
+    margin-top: 35px;
+  }
+  .popular__img {
+    width: 100%;
+    top: 50px;
+    left: 40px;
+  }
+  .fa-angle-left {
+    left: 0;
+  }
+  .fa-angle-right {
+    left: 97%;
+  }
+  .master-name {
+    margin-top: 40px;
+  }
+  .choose-plan {
+    padding-top: 125px;
+    padding-bottom: 100px;
+  }
+  .choose-plan__box {
+    padding-right: 0;
+    padding-bottom: 100px;
+  }
+  .plan-choice {
+    margin: 0 auto;
+  }
+
+  .btnToggle {
+    animation-name: btnToggle;
+    transition: all 1s ease;
+  }
+  @keyframes btnToggle {
+    from {
+      margin-left: 0;
+    }
+    to {
+      margin-left: 15.5%;
+    }
+  }
+
+  @keyframes btnToggleBack {
+    from {
+      margin-left: 15.5%;
+    }
+    to {
+      margin-left: 0;
+    }
+  }
+
+  .logo-col {
+    padding-right: 180px;
+  }
+  .social__list {
+    font-size: 14px;
+  }
+  .visible {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    padding: 100px 0;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 17px;
+  }
+  .header__title {
+    font-size: 55px;
+  }
+  .props-block_two {
+    padding-top: 50px;
+  }
+  .popular__title {
+    padding-right: 80px;
+  }
+  .popular__img {
+    left: 0;
+  }
+  .interface__title-line {
+    display: none;
+  }
+  .interface__title {
+    margin-bottom: 20px;
+  }
+  .load {
+    padding-top: 0;
+  }
+  .plan__text {
+    display: none;
+  }
+  .plan-choice {
+    margin-bottom: 15px;
+  }
+  .choose-plan__box {
+    padding-bottom: 50px;
+  }
+
+  .btnToggle {
+    animation-name: btnToggle;
+    transition: all 1s ease;
+  }
+  @keyframes btnToggle {
+    from {
+      margin-left: 0;
+    }
+    to {
+      margin-left: 21%;
+    }
+  }
+  .plan-mode__fare {
+    margin-bottom: 25px;
+  }
+  .plan-mode__plot {
+    padding: 0;
+  }
+
+  .social__list-title {
+    margin-top: 30px;
+  }
+  .social__list__item {
+    padding-top: 5px;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer__info {
+    margin-bottom: 10px;
+  }
+  .carousel__item {
+    width: 200px;
+  }
+  .fa-angle-right {
+    left: 110%;
+  }
+  .fa-angle-left {
+    left: -10%;
+  }
+  .carousel__item-text__quote {
+    width: 100%;
+    font-size: 17px;
+  }
+  .carousel {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  section {
+    padding: 50px 0;
+  }
+  h5 {
+    font-size: 23px !important;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .header__title {
+    font-size: 45px;
+  }
+  .header__text,
+  .props__text {
+    font-size: 15px;
+  }
+  .header__phone_img {
+    width: 100%;
+  }
+  .hamburger {
+    font-size: 20px;
+  }
+
+  .mobile-flex {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .get-app {
+    top: -20px;
+  }
+
+  .props__text_one {
+    padding: 20px 0;
+  }
+  .popular {
+    padding-bottom: 50px;
+  }
+  .about__text_two {
+    margin-bottom: 35px;
+  }
+  .about__button_two {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .evernote-img {
+    margin-top: 20px;
+    display: block;
+    margin-left: 0;
+  }
+  .slider__item img {
+    max-width: 100%;
+  }
+  .load {
+    display: none;
+  }
+  .carousel__item-text__title {
+    font-size: 25px;
+  }
+  .carousel__item-text__quote {
+    font-size: 15px;
+  }
+  .master-name {
+    margin-top: 10px;
+  }
+  .carousel {
+    width: auto;
+  }
+  .carousel__item {
+    width: 300px;
+    margin: 0 40px;
+  }
+  .master {
+    width: 50%;
+    opacity: 1;
+    position: relative;
+    top: 0;
+  }
+  .swipe-arrow {
+    display: block;
+    margin: 0 auto;
+    color: #000;
+    font-weight: 300;
+    padding: 60px 0 20px;
+  }
+  .carousel__item-text__title {
+    margin-top: 0;
+  }
+  .choose-plan {
+    padding-top: 50px;
+  }
+  .choice {
+    margin: 20px 0 10px;
+  }
+
+  .subsc-form {
+    max-width: 400px;
+    padding: 3px 3px 3px 15px;
+  }
+
+  .subsc-form .subc-btn {
+    padding: 2px 5px;
+  }
+
+  @keyframes btnToggle {
+    from {
+      margin-left: 0;
+    }
+    to {
+      margin-left: 21%;
+    }
+  }
+
+  .logo-col {
+    padding-right: 0;
+  }
+  .plan-choice {
+    display: none;
+  }
+  #slider-btn {
+    display: block;
+  }
+  .slider-card {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+  .choice {
+    display: none;
+  }
+  .choice-swipe {
+    display: block;
+  }
+  .active-mode {
+    box-shadow: none;
+  }
+  .plan {
+    margin-bottom: 10px;
+  }
+  .slider-box__plan {
+    position: relative;
+    left: 50%;
+    margin-left: -150px;
+  }
+  .slick-arrow {
+    display: none !important;
+  }
+  .hamburger-global {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .frame-box {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .carousel__item {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  @keyframes btnToggle {
+    from {
+      margin-left: 0;
+    }
+    to {
+      margin-left: 35%;
+    }
+  }
+}
