@@ -1,22 +1,32 @@
 const burgerBtn = document.querySelector(".burger");
 const modalMenu = document.querySelector(".modal-window");
 
-function handleMobileMenu(e) {
+function closeMobileMenuWindow(e) {
+  if (e.key === "Escape" && burgerBtn.classList.contains("open")) {
+    burgerBtn.classList.remove("open");
+    modalMenu.classList.remove("open");
+  }
+}
+
+function closeMobileMenu(e) {
   if (
-    burgerBtn.classList.contains("open") &&
-    (e.key === "Escape" || !e.target.classList.contains("mobile-menu__link"))
+    modalMenu.classList.contains("open") &&
+    !e.target.classList.contains("mobile-menu__link")
   ) {
     burgerBtn.classList.remove("open");
     modalMenu.classList.remove("open");
-  } else {
+  }
+}
+
+function openMobileMenu() {
+  if (!burgerBtn.classList.contains("open")) {
     burgerBtn.classList.add("open");
     modalMenu.classList.add("open");
   }
 }
-
-burgerBtn.addEventListener("click", handleMobileMenu);
-window.addEventListener("keydown", handleMobileMenu);
-modalMenu.addEventListener("click", handleMobileMenu);
+burgerBtn.addEventListener("click", openMobileMenu);
+window.addEventListener("keyup", closeMobileMenuWindow);
+modalMenu.addEventListener("click", closeMobileMenu);
 
 $(document).ready(function () {
   $(".slider-box").slick({
