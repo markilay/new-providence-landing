@@ -60,7 +60,7 @@
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Lato-Bold";
   src: url("../fonts/hinted-Lato-Bold.eot");
   src: local("Lato Bold"), local("Lato-Bold"),
@@ -71,7 +71,7 @@
     url("../fonts/hinted-Lato-Bold.svg#Lato-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
-}
+} */
 
 body {
   font-family: "Lato";
