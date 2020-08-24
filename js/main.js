@@ -1,14 +1,14 @@
 const burgerBtn = document.querySelector(".burger");
 const modalMenu = document.querySelector(".modal-window");
 
-function closeMobileMenuWindow(e) {
+function closeMenuByEscape(e) {
   if (e.key === "Escape" && burgerBtn.classList.contains("open")) {
     burgerBtn.classList.remove("open");
     modalMenu.classList.remove("open");
   }
 }
 
-function closeMobileMenu(e) {
+function closeMenuByClick(e) {
   if (
     modalMenu.classList.contains("open") &&
     !e.target.classList.contains("mobile-menu__link")
@@ -25,8 +25,8 @@ function openMobileMenu() {
   }
 }
 burgerBtn.addEventListener("click", openMobileMenu);
-window.addEventListener("keyup", closeMobileMenuWindow);
-modalMenu.addEventListener("click", closeMobileMenu);
+window.addEventListener("keyup", closeMenuByEscape);
+modalMenu.addEventListener("click", closeMenuByClick);
 
 $(document).ready(function () {
   $(".slider-box").slick({
